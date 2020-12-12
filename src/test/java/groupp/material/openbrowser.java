@@ -32,6 +32,8 @@ public class openbrowser extends browser {
 	       driver.switchTo().window(parentID).close();
 	       driver.switchTo().window(childid);
 	       Thread.sleep(1000);*/
+		
+		//addd
 		login.username().sendKeys("pvps");
 		login.password().sendKeys("password0");
 		login.proceed().click();
